@@ -17,13 +17,13 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition Width="auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Slider Name="sliderRed" Minimum="0" Maximum="255"
+        <Slider Name="sliderRed" Background="Red" Minimum="0" Maximum="255"
                 Margin="{Binding ElementName=changeColor,Path=Padding}"
                 Value="{Binding ElementName=changeColor, Path=Red}"></Slider>
-        <Slider Name="sliderGreen" Minimum="0" Maximum="255" Grid.Row="1"
+        <Slider Name="sliderGreen" Background="Green"  Minimum="0" Maximum="255" Grid.Row="1"
                 Margin="{Binding ElementName=changeColor,Path=Padding}"
                 Value="{Binding ElementName=changeColor, Path=Green}"></Slider>
-        <Slider Name="sliderBlue" Minimum="0" Maximum="255" Grid.Row="2"
+        <Slider Name="sliderBlue" Background="Blue"  Minimum="0" Maximum="255" Grid.Row="2"
                 Margin="{Binding ElementName=changeColor,Path=Padding}"
                 Value="{Binding ElementName=changeColor, Path=Blue}"></Slider>
         <Rectangle Grid.Column="1" Grid.RowSpan="3" Width="50" Stroke="Black" StrokeThickness="1"
